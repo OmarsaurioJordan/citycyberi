@@ -1,0 +1,50 @@
+[gd_resource type="Theme" load_steps=10 format=3 uid="uid://bp28txghn1ic1"]
+
+[ext_resource type="FontFile" uid="uid://uuqtp3w6mkn6" path="res://sprites/comic_sana.ttf" id="1_a85fq"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4r0su"]
+bg_color = Color(0.0710316, 0.159956, 0.230884, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_a85fq"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6nc42"]
+bg_color = Color(0.886937, 0.626274, 0.430808, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xshin"]
+bg_color = Color(0.829853, 0.343288, 0.371381, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wfeoo"]
+bg_color = Color(0.867419, 0.802159, 0.546059, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lca3b"]
+bg_color = Color(0.894679, 0.442441, 0.459793, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6nc42"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kif4k"]
+bg_color = Color(0.878431, 0.878431, 0.878431, 0.403922)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.47451, 0.47451, 0.47451, 0.780392)
+border_blend = true
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/styles/disabled = SubResource("StyleBoxFlat_4r0su")
+Button/styles/focus = SubResource("StyleBoxEmpty_a85fq")
+Button/styles/hover = SubResource("StyleBoxFlat_6nc42")
+Button/styles/hover_pressed = SubResource("StyleBoxFlat_xshin")
+Button/styles/normal = SubResource("StyleBoxFlat_wfeoo")
+Button/styles/pressed = SubResource("StyleBoxFlat_lca3b")
+RichTextLabel/colors/default_color = Color(0.308776, 0.0963095, 0.398786, 1)
+RichTextLabel/colors/selection_color = Color(0.829623, 0.686046, 0.979527, 0.8)
+RichTextLabel/font_sizes/normal_font_size = 22
+RichTextLabel/fonts/normal_font = ExtResource("1_a85fq")
+RichTextLabel/styles/focus = SubResource("StyleBoxEmpty_6nc42")
+RichTextLabel/styles/normal = SubResource("StyleBoxFlat_kif4k")

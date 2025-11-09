@@ -1,0 +1,74 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://bo1glg3wtav3p"]
+
+[ext_resource type="FontFile" uid="uid://uuqtp3w6mkn6" path="res://sprites/comic_sana.ttf" id="1_hs8ml"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0ixe1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cibtg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tixhh"]
+bg_color = Color(0.935504, 0.85173, 0.443004, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.416185, 0.215626, 0.486829, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6ccgc"]
+bg_color = Color(0.915569, 0.597449, 0.277628, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.416185, 0.215626, 0.486829, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kyesc"]
+bg_color = Color(0.828258, 0.889101, 0.518821, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.416185, 0.215626, 0.486829, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_torkd"]
+bg_color = Color(0.945401, 0.711338, 0.349977, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.416185, 0.215626, 0.486829, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_focus_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(0, 0, 0, 1)
+Button/font_sizes/font_size = 22
+Button/fonts/font = ExtResource("1_hs8ml")
+Button/styles/disabled = SubResource("StyleBoxEmpty_0ixe1")
+Button/styles/focus = SubResource("StyleBoxEmpty_cibtg")
+Button/styles/hover = SubResource("StyleBoxFlat_tixhh")
+Button/styles/hover_pressed = SubResource("StyleBoxFlat_6ccgc")
+Button/styles/normal = SubResource("StyleBoxFlat_kyesc")
+Button/styles/pressed = SubResource("StyleBoxFlat_torkd")
