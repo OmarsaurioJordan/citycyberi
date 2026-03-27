@@ -1,16 +1,16 @@
-[gd_scene load_steps=20 format=3 uid="uid://qau8ecky2g2j"]
+[gd_scene format=3 uid="uid://qau8ecky2g2j"]
 
 [ext_resource type="Script" uid="uid://cxh8cgx0u5383" path="res://scripts/mundo.gd" id="1_6o2rw"]
-[ext_resource type="Texture2D" uid="uid://dshqabm3xwxqp" path="res://sprites/img1.png" id="1_75jji"]
+[ext_resource type="Texture2D" uid="uid://fms7wwwvv0iw" path="res://sprites/img1.png" id="1_75jji"]
 [ext_resource type="Theme" uid="uid://bp28txghn1ic1" path="res://sprites/ventanas.tres" id="1_kxyy5"]
-[ext_resource type="Texture2D" uid="uid://dhdfmg5yeshy1" path="res://sprites/img2.png" id="2_kxyy5"]
-[ext_resource type="Texture2D" uid="uid://d3fdqbsdsxmbc" path="res://sprites/img3.png" id="3_6o2rw"]
-[ext_resource type="Texture2D" uid="uid://nl7gj48c1qaf" path="res://sprites/img4.png" id="4_wd5o3"]
-[ext_resource type="Texture2D" uid="uid://cm86fhikcdb1l" path="res://sprites/img5.png" id="5_06eai"]
-[ext_resource type="Texture2D" uid="uid://bryl8kdsr0whh" path="res://sprites/img6.png" id="6_m7g0u"]
-[ext_resource type="Texture2D" uid="uid://s7u4nelw8ljv" path="res://sprites/img7.png" id="7_35q48"]
-[ext_resource type="Texture2D" uid="uid://g5iv0wjjv58v" path="res://sprites/img8.png" id="10_06eai"]
-[ext_resource type="Texture2D" uid="uid://dlpmeb785s4wu" path="res://sprites/cyberseg_strip48.png" id="10_wd5o3"]
+[ext_resource type="Texture2D" uid="uid://3pelxqvb7nv7" path="res://sprites/img2.png" id="2_kxyy5"]
+[ext_resource type="Texture2D" uid="uid://cm5jgd3p2jg32" path="res://sprites/img3.png" id="3_6o2rw"]
+[ext_resource type="Texture2D" uid="uid://dxltdh7s7rrc3" path="res://sprites/img4.png" id="4_wd5o3"]
+[ext_resource type="Texture2D" uid="uid://cy7d1x0fl8ayu" path="res://sprites/img5.png" id="5_06eai"]
+[ext_resource type="Texture2D" uid="uid://v4svbdjfv6y2" path="res://sprites/img6.png" id="6_m7g0u"]
+[ext_resource type="Texture2D" uid="uid://bp23upgcsm1ym" path="res://sprites/img7.png" id="7_35q48"]
+[ext_resource type="Texture2D" uid="uid://cg5rmyi7vp2rk" path="res://sprites/img8.png" id="10_06eai"]
+[ext_resource type="Texture2D" uid="uid://ca82j0i7wfr20" path="res://sprites/cyberseg_strip48.png" id="10_wd5o3"]
 [ext_resource type="Theme" uid="uid://bo1glg3wtav3p" path="res://sprites/examen.tres" id="12_m7g0u"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6o2rw"]
@@ -72,7 +72,7 @@ _data = {
 &"luz": SubResource("Animation_wd5o3")
 }
 
-[node name="Mundo" type="Control"]
+[node name="Mundo" type="Control" unique_id=1497116711]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -82,7 +82,7 @@ grow_vertical = 2
 script = ExtResource("1_6o2rw")
 metadata/_edit_lock_ = true
 
-[node name="BtnBack" type="Button" parent="."]
+[node name="BtnBack" type="Button" parent="." unique_id=2053803450]
 self_modulate = Color(1, 1, 1, 0.00392157)
 layout_mode = 0
 offset_left = 2.0
@@ -92,13 +92,13 @@ offset_bottom = 648.0
 focus_mode = 0
 metadata/_edit_lock_ = true
 
-[node name="Ventanas" type="Control" parent="."]
+[node name="Ventanas" type="Control" parent="." unique_id=1704764058]
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Btn1" type="Button" parent="Ventanas"]
+[node name="Btn1" type="Button" parent="Ventanas" unique_id=1885854929]
 layout_mode = 0
 offset_left = 407.0
 offset_top = 455.0
@@ -110,7 +110,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn2" type="Button" parent="Ventanas"]
+[node name="Btn2" type="Button" parent="Ventanas" unique_id=1191307512]
 layout_mode = 0
 offset_left = 283.0
 offset_top = 506.0
@@ -122,7 +122,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn3" type="Button" parent="Ventanas"]
+[node name="Btn3" type="Button" parent="Ventanas" unique_id=349538365]
 layout_mode = 0
 offset_left = 229.0
 offset_top = 508.0
@@ -134,7 +134,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn4" type="Button" parent="Ventanas"]
+[node name="Btn4" type="Button" parent="Ventanas" unique_id=1536007010]
 layout_mode = 0
 offset_left = 177.0
 offset_top = 510.0
@@ -146,7 +146,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn5" type="Button" parent="Ventanas"]
+[node name="Btn5" type="Button" parent="Ventanas" unique_id=1186075811]
 layout_mode = 0
 offset_left = 406.0
 offset_top = 509.0
@@ -158,7 +158,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn6" type="Button" parent="Ventanas"]
+[node name="Btn6" type="Button" parent="Ventanas" unique_id=2031530959]
 layout_mode = 0
 offset_left = 502.0
 offset_top = 577.0
@@ -170,7 +170,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn7" type="Button" parent="Ventanas"]
+[node name="Btn7" type="Button" parent="Ventanas" unique_id=1011816942]
 layout_mode = 0
 offset_left = 325.0
 offset_top = 558.0
@@ -182,7 +182,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn8" type="Button" parent="Ventanas"]
+[node name="Btn8" type="Button" parent="Ventanas" unique_id=1849901776]
 layout_mode = 0
 offset_left = 66.0
 offset_top = 509.0
@@ -194,7 +194,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn9" type="Button" parent="Ventanas"]
+[node name="Btn9" type="Button" parent="Ventanas" unique_id=42452347]
 layout_mode = 0
 offset_left = 64.0
 offset_top = 453.0
@@ -206,7 +206,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn10" type="Button" parent="Ventanas"]
+[node name="Btn10" type="Button" parent="Ventanas" unique_id=1709061887]
 layout_mode = 0
 offset_left = 68.0
 offset_top = 399.0
@@ -218,7 +218,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn11" type="Button" parent="Ventanas"]
+[node name="Btn11" type="Button" parent="Ventanas" unique_id=533054768]
 layout_mode = 0
 offset_left = 67.0
 offset_top = 347.0
@@ -230,7 +230,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn12" type="Button" parent="Ventanas"]
+[node name="Btn12" type="Button" parent="Ventanas" unique_id=49008608]
 layout_mode = 0
 offset_left = 131.0
 offset_top = 350.0
@@ -242,7 +242,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn13" type="Button" parent="Ventanas"]
+[node name="Btn13" type="Button" parent="Ventanas" unique_id=1914781952]
 layout_mode = 0
 offset_left = 178.0
 offset_top = 451.0
@@ -254,7 +254,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn14" type="Button" parent="Ventanas"]
+[node name="Btn14" type="Button" parent="Ventanas" unique_id=206349891]
 layout_mode = 0
 offset_left = 390.0
 offset_top = 347.0
@@ -266,7 +266,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn15" type="Button" parent="Ventanas"]
+[node name="Btn15" type="Button" parent="Ventanas" unique_id=936060247]
 layout_mode = 0
 offset_left = 394.0
 offset_top = 411.0
@@ -278,7 +278,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn16" type="Button" parent="Ventanas"]
+[node name="Btn16" type="Button" parent="Ventanas" unique_id=1856566696]
 layout_mode = 0
 offset_left = 496.0
 offset_top = 395.0
@@ -290,7 +290,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn17" type="Button" parent="Ventanas"]
+[node name="Btn17" type="Button" parent="Ventanas" unique_id=373482582]
 layout_mode = 0
 offset_left = 513.0
 offset_top = 457.0
@@ -302,7 +302,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn18" type="Button" parent="Ventanas"]
+[node name="Btn18" type="Button" parent="Ventanas" unique_id=402617427]
 layout_mode = 0
 offset_left = 509.0
 offset_top = 309.0
@@ -314,7 +314,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn19" type="Button" parent="Ventanas"]
+[node name="Btn19" type="Button" parent="Ventanas" unique_id=956266832]
 layout_mode = 0
 offset_left = 624.0
 offset_top = 305.0
@@ -326,7 +326,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn20" type="Button" parent="Ventanas"]
+[node name="Btn20" type="Button" parent="Ventanas" unique_id=582457949]
 layout_mode = 0
 offset_left = 649.0
 offset_top = 376.0
@@ -338,7 +338,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn21" type="Button" parent="Ventanas"]
+[node name="Btn21" type="Button" parent="Ventanas" unique_id=1157993570]
 layout_mode = 0
 offset_left = 569.0
 offset_top = 439.0
@@ -350,7 +350,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn22" type="Button" parent="Ventanas"]
+[node name="Btn22" type="Button" parent="Ventanas" unique_id=174683661]
 layout_mode = 0
 offset_left = 626.0
 offset_top = 435.0
@@ -362,7 +362,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn23" type="Button" parent="Ventanas"]
+[node name="Btn23" type="Button" parent="Ventanas" unique_id=1975155670]
 layout_mode = 0
 offset_left = 680.0
 offset_top = 434.0
@@ -374,7 +374,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn24" type="Button" parent="Ventanas"]
+[node name="Btn24" type="Button" parent="Ventanas" unique_id=74350563]
 layout_mode = 0
 offset_left = 570.0
 offset_top = 511.0
@@ -386,7 +386,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn25" type="Button" parent="Ventanas"]
+[node name="Btn25" type="Button" parent="Ventanas" unique_id=136799456]
 layout_mode = 0
 offset_left = 624.0
 offset_top = 512.0
@@ -398,7 +398,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn26" type="Button" parent="Ventanas"]
+[node name="Btn26" type="Button" parent="Ventanas" unique_id=398983224]
 layout_mode = 0
 offset_left = 676.0
 offset_top = 511.0
@@ -410,7 +410,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn27" type="Button" parent="Ventanas"]
+[node name="Btn27" type="Button" parent="Ventanas" unique_id=1837957136]
 layout_mode = 0
 offset_left = 584.0
 offset_top = 402.0
@@ -422,7 +422,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn28" type="Button" parent="Ventanas"]
+[node name="Btn28" type="Button" parent="Ventanas" unique_id=1700021180]
 layout_mode = 0
 offset_left = 267.0
 offset_top = 341.0
@@ -434,7 +434,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn29" type="Button" parent="Ventanas"]
+[node name="Btn29" type="Button" parent="Ventanas" unique_id=2040429959]
 layout_mode = 0
 offset_left = 315.0
 offset_top = 342.0
@@ -446,7 +446,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn30" type="Button" parent="Ventanas"]
+[node name="Btn30" type="Button" parent="Ventanas" unique_id=161162512]
 layout_mode = 0
 offset_left = 267.0
 offset_top = 385.0
@@ -458,7 +458,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn31" type="Button" parent="Ventanas"]
+[node name="Btn31" type="Button" parent="Ventanas" unique_id=2120954716]
 layout_mode = 0
 offset_left = 315.0
 offset_top = 387.0
@@ -470,7 +470,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn32" type="Button" parent="Ventanas"]
+[node name="Btn32" type="Button" parent="Ventanas" unique_id=1791058003]
 layout_mode = 0
 offset_left = 359.0
 offset_top = 385.0
@@ -482,7 +482,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn33" type="Button" parent="Ventanas"]
+[node name="Btn33" type="Button" parent="Ventanas" unique_id=63193207]
 layout_mode = 0
 offset_left = 779.0
 offset_top = 358.0
@@ -494,7 +494,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn34" type="Button" parent="Ventanas"]
+[node name="Btn34" type="Button" parent="Ventanas" unique_id=2111529012]
 layout_mode = 0
 offset_left = 727.0
 offset_top = 466.0
@@ -506,7 +506,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn35" type="Button" parent="Ventanas"]
+[node name="Btn35" type="Button" parent="Ventanas" unique_id=886963264]
 layout_mode = 0
 offset_left = 798.0
 offset_top = 507.0
@@ -518,7 +518,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn36" type="Button" parent="Ventanas"]
+[node name="Btn36" type="Button" parent="Ventanas" unique_id=1967110732]
 layout_mode = 0
 offset_left = 847.0
 offset_top = 465.0
@@ -530,7 +530,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn37" type="Button" parent="Ventanas"]
+[node name="Btn37" type="Button" parent="Ventanas" unique_id=984990703]
 layout_mode = 0
 offset_left = 915.0
 offset_top = 484.0
@@ -542,7 +542,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn38" type="Button" parent="Ventanas"]
+[node name="Btn38" type="Button" parent="Ventanas" unique_id=837966021]
 layout_mode = 0
 offset_left = 977.0
 offset_top = 482.0
@@ -554,7 +554,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn39" type="Button" parent="Ventanas"]
+[node name="Btn39" type="Button" parent="Ventanas" unique_id=1359467174]
 layout_mode = 0
 offset_left = 945.0
 offset_top = 389.0
@@ -566,7 +566,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn40" type="Button" parent="Ventanas"]
+[node name="Btn40" type="Button" parent="Ventanas" unique_id=1515016812]
 layout_mode = 0
 offset_left = 1036.0
 offset_top = 316.0
@@ -578,7 +578,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn41" type="Button" parent="Ventanas"]
+[node name="Btn41" type="Button" parent="Ventanas" unique_id=1584625315]
 layout_mode = 0
 offset_left = 1035.0
 offset_top = 377.0
@@ -590,7 +590,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn42" type="Button" parent="Ventanas"]
+[node name="Btn42" type="Button" parent="Ventanas" unique_id=1560890396]
 layout_mode = 0
 offset_left = 1034.0
 offset_top = 438.0
@@ -602,7 +602,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn43" type="Button" parent="Ventanas"]
+[node name="Btn43" type="Button" parent="Ventanas" unique_id=92192845]
 layout_mode = 0
 offset_left = 518.0
 offset_top = 367.0
@@ -614,7 +614,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn44" type="Button" parent="Ventanas"]
+[node name="Btn44" type="Button" parent="Ventanas" unique_id=1799987117]
 layout_mode = 0
 offset_left = 335.0
 offset_top = 459.0
@@ -626,7 +626,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn45" type="Button" parent="Ventanas"]
+[node name="Btn45" type="Button" parent="Ventanas" unique_id=1635534002]
 layout_mode = 0
 offset_left = 106.0
 offset_top = 596.0
@@ -638,7 +638,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn46" type="Button" parent="Ventanas"]
+[node name="Btn46" type="Button" parent="Ventanas" unique_id=557862935]
 layout_mode = 0
 offset_left = 760.0
 offset_top = 565.0
@@ -650,7 +650,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn47" type="Button" parent="Ventanas"]
+[node name="Btn47" type="Button" parent="Ventanas" unique_id=684233428]
 layout_mode = 0
 offset_left = 817.0
 offset_top = 471.0
@@ -662,7 +662,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Btn48" type="Button" parent="Ventanas"]
+[node name="Btn48" type="Button" parent="Ventanas" unique_id=1698419041]
 layout_mode = 0
 offset_left = 714.0
 offset_top = 585.0
@@ -674,7 +674,7 @@ theme = ExtResource("1_kxyy5")
 toggle_mode = true
 metadata/_edit_lock_ = true
 
-[node name="Ciudad" type="Control" parent="."]
+[node name="Ciudad" type="Control" parent="." unique_id=903378020]
 anchors_preset = 0
 offset_top = 277.0
 offset_right = 136.667
@@ -682,7 +682,7 @@ offset_bottom = 383.667
 scale = Vector2(0.301, 0.301)
 metadata/_edit_lock_ = true
 
-[node name="Img1" type="TextureRect" parent="Ciudad"]
+[node name="Img1" type="TextureRect" parent="Ciudad" unique_id=1542760952]
 self_modulate = Color(0.74558, 0.74558, 0.74558, 1)
 layout_mode = 0
 offset_right = 40.0
@@ -691,7 +691,7 @@ mouse_filter = 2
 texture = ExtResource("1_75jji")
 metadata/_edit_lock_ = true
 
-[node name="Img2" type="TextureRect" parent="Ciudad"]
+[node name="Img2" type="TextureRect" parent="Ciudad" unique_id=505628065]
 self_modulate = Color(0.435951, 0.564622, 0.652752, 1)
 layout_mode = 0
 offset_right = 40.0
@@ -700,7 +700,7 @@ mouse_filter = 2
 texture = ExtResource("2_kxyy5")
 metadata/_edit_lock_ = true
 
-[node name="Img3" type="TextureRect" parent="Ciudad"]
+[node name="Img3" type="TextureRect" parent="Ciudad" unique_id=523195689]
 self_modulate = Color(0.589096, 0.589096, 0.589096, 1)
 layout_mode = 0
 offset_right = 40.0
@@ -709,7 +709,7 @@ mouse_filter = 2
 texture = ExtResource("3_6o2rw")
 metadata/_edit_lock_ = true
 
-[node name="Img4" type="TextureRect" parent="Ciudad"]
+[node name="Img4" type="TextureRect" parent="Ciudad" unique_id=1850218686]
 self_modulate = Color(0.439049, 0.439049, 0.439049, 1)
 layout_mode = 0
 offset_right = 40.0
@@ -718,7 +718,7 @@ mouse_filter = 2
 texture = ExtResource("4_wd5o3")
 metadata/_edit_lock_ = true
 
-[node name="Img5" type="TextureRect" parent="Ciudad"]
+[node name="Img5" type="TextureRect" parent="Ciudad" unique_id=1662680648]
 self_modulate = Color(0.299547, 0.299547, 0.299547, 1)
 layout_mode = 0
 offset_right = 40.0
@@ -727,14 +727,14 @@ mouse_filter = 2
 texture = ExtResource("5_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Luz" type="PointLight2D" parent="Ciudad"]
+[node name="Luz" type="PointLight2D" parent="Ciudad" unique_id=30678666]
 position = Vector2(1913.62, 614.618)
 color = Color(0.869455, 0.798721, 0.498413, 1)
 energy = 0.05
 texture = ExtResource("6_m7g0u")
 metadata/_edit_lock_ = true
 
-[node name="Img7" type="TextureRect" parent="Ciudad"]
+[node name="Img7" type="TextureRect" parent="Ciudad" unique_id=2044798918]
 self_modulate = Color(0.44743, 0.502989, 0.730964, 1)
 layout_mode = 0
 offset_right = 40.0
@@ -743,7 +743,7 @@ mouse_filter = 2
 texture = ExtResource("7_35q48")
 metadata/_edit_lock_ = true
 
-[node name="Img8" type="TextureRect" parent="Ciudad"]
+[node name="Img8" type="TextureRect" parent="Ciudad" unique_id=15596902]
 self_modulate = Color(0.335451, 0.399491, 0.688057, 1)
 layout_mode = 0
 offset_right = 3830.0
@@ -752,21 +752,21 @@ mouse_filter = 2
 texture = ExtResource("10_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Info" type="Panel" parent="."]
+[node name="Info" type="Panel" parent="." unique_id=1877181594]
 layout_mode = 0
 offset_right = 1152.0
-offset_bottom = 273.0
+offset_bottom = 277.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_6o2rw")
 metadata/_edit_lock_ = true
 
-[node name="Pag1" type="Control" parent="Info"]
+[node name="Pag1" type="Control" parent="Info" unique_id=394955699]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag1"]
+[node name="Fondo" type="Panel" parent="Info/Pag1" unique_id=268640382]
 self_modulate = Color(1, 0.901961, 0.894118, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -776,7 +776,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag1"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag1" unique_id=195417810]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -785,7 +785,7 @@ vframes = 4
 frame = 26
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag1"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag1" unique_id=1537898071]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -800,14 +800,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag2" type="Control" parent="Info"]
+[node name="Pag2" type="Control" parent="Info" unique_id=1178885672]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag2"]
+[node name="Fondo" type="Panel" parent="Info/Pag2" unique_id=1541689562]
 self_modulate = Color(1, 0.890196, 0.890196, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -817,7 +817,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag2"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag2" unique_id=1399206242]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -826,7 +826,7 @@ vframes = 4
 frame = 29
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag2"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag2" unique_id=1623011179]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -841,14 +841,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag3" type="Control" parent="Info"]
+[node name="Pag3" type="Control" parent="Info" unique_id=826306645]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag3"]
+[node name="Fondo" type="Panel" parent="Info/Pag3" unique_id=183798608]
 self_modulate = Color(1, 0.901961, 0.909804, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -858,7 +858,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag3"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag3" unique_id=1231609528]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -867,7 +867,7 @@ vframes = 4
 frame = 43
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag3"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag3" unique_id=354979443]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -882,14 +882,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag4" type="Control" parent="Info"]
+[node name="Pag4" type="Control" parent="Info" unique_id=438445510]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag4"]
+[node name="Fondo" type="Panel" parent="Info/Pag4" unique_id=200423657]
 self_modulate = Color(1, 0.878431, 0.878431, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -899,7 +899,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag4"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag4" unique_id=509477467]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -908,7 +908,7 @@ vframes = 4
 frame = 30
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag4"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag4" unique_id=304958796]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -923,14 +923,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag5" type="Control" parent="Info"]
+[node name="Pag5" type="Control" parent="Info" unique_id=1637310715]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag5"]
+[node name="Fondo" type="Panel" parent="Info/Pag5" unique_id=1749206069]
 self_modulate = Color(0.894118, 0.905882, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -940,7 +940,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag5"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag5" unique_id=221208015]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -949,7 +949,7 @@ vframes = 4
 frame = 32
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag5"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag5" unique_id=12702018]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -964,14 +964,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag6" type="Control" parent="Info"]
+[node name="Pag6" type="Control" parent="Info" unique_id=2065703214]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag6"]
+[node name="Fondo" type="Panel" parent="Info/Pag6" unique_id=985091640]
 self_modulate = Color(1, 0.894118, 0.890196, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -981,7 +981,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag6"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag6" unique_id=1684308510]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -990,7 +990,7 @@ vframes = 4
 frame = 27
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag6"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag6" unique_id=401147988]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1005,14 +1005,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag7" type="Control" parent="Info"]
+[node name="Pag7" type="Control" parent="Info" unique_id=875363205]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag7"]
+[node name="Fondo" type="Panel" parent="Info/Pag7" unique_id=1793593437]
 self_modulate = Color(0.866667, 0.87451, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1022,7 +1022,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag7"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag7" unique_id=631520731]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1031,7 +1031,7 @@ vframes = 4
 frame = 5
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag7"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag7" unique_id=1058547809]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1046,14 +1046,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag8" type="Control" parent="Info"]
+[node name="Pag8" type="Control" parent="Info" unique_id=2045329829]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag8"]
+[node name="Fondo" type="Panel" parent="Info/Pag8" unique_id=488705257]
 self_modulate = Color(1, 0.894118, 0.878431, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1063,7 +1063,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag8"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag8" unique_id=58898230]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1072,7 +1072,7 @@ vframes = 4
 frame = 24
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag8"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag8" unique_id=796759185]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1087,14 +1087,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag9" type="Control" parent="Info"]
+[node name="Pag9" type="Control" parent="Info" unique_id=404634008]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag9"]
+[node name="Fondo" type="Panel" parent="Info/Pag9" unique_id=1270602294]
 self_modulate = Color(0.894118, 0.901961, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1104,7 +1104,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag9"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag9" unique_id=702089882]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1113,7 +1113,7 @@ vframes = 4
 frame = 2
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag9"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag9" unique_id=1666358061]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1128,14 +1128,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag10" type="Control" parent="Info"]
+[node name="Pag10" type="Control" parent="Info" unique_id=1418900324]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag10"]
+[node name="Fondo" type="Panel" parent="Info/Pag10" unique_id=891548475]
 self_modulate = Color(1, 0.905882, 0.905882, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1145,7 +1145,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag10"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag10" unique_id=1861589556]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1154,7 +1154,7 @@ vframes = 4
 frame = 25
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag10"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag10" unique_id=398442714]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1169,14 +1169,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag11" type="Control" parent="Info"]
+[node name="Pag11" type="Control" parent="Info" unique_id=1284460967]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag11"]
+[node name="Fondo" type="Panel" parent="Info/Pag11" unique_id=729633048]
 self_modulate = Color(1, 0.894118, 0.882353, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1186,7 +1186,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag11"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag11" unique_id=289176441]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1195,7 +1195,7 @@ vframes = 4
 frame = 37
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag11"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag11" unique_id=1035388303]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1210,14 +1210,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag12" type="Control" parent="Info"]
+[node name="Pag12" type="Control" parent="Info" unique_id=529630597]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag12"]
+[node name="Fondo" type="Panel" parent="Info/Pag12" unique_id=2055935810]
 self_modulate = Color(1, 0.890196, 0.862745, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1227,7 +1227,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag12"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag12" unique_id=1700085149]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1236,7 +1236,7 @@ vframes = 4
 frame = 14
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag12"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag12" unique_id=1730107966]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1251,14 +1251,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag13" type="Control" parent="Info"]
+[node name="Pag13" type="Control" parent="Info" unique_id=1996549071]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag13"]
+[node name="Fondo" type="Panel" parent="Info/Pag13" unique_id=1088573713]
 self_modulate = Color(1, 0.878431, 0.878431, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1268,7 +1268,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag13"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag13" unique_id=1486596717]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1277,7 +1277,7 @@ vframes = 4
 frame = 46
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag13"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag13" unique_id=976127834]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1292,14 +1292,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag14" type="Control" parent="Info"]
+[node name="Pag14" type="Control" parent="Info" unique_id=1597024404]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag14"]
+[node name="Fondo" type="Panel" parent="Info/Pag14" unique_id=731162937]
 self_modulate = Color(0.878431, 0.866667, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1309,7 +1309,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag14"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag14" unique_id=442874811]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1318,7 +1318,7 @@ vframes = 4
 frame = 40
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag14"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag14" unique_id=657451730]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1333,14 +1333,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag15" type="Control" parent="Info"]
+[node name="Pag15" type="Control" parent="Info" unique_id=1601442504]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag15"]
+[node name="Fondo" type="Panel" parent="Info/Pag15" unique_id=1915322]
 self_modulate = Color(0.878431, 0.87451, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1350,7 +1350,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag15"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag15" unique_id=298196620]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1359,7 +1359,7 @@ vframes = 4
 frame = 3
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag15"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag15" unique_id=891220796]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1374,14 +1374,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag16" type="Control" parent="Info"]
+[node name="Pag16" type="Control" parent="Info" unique_id=1227930611]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag16"]
+[node name="Fondo" type="Panel" parent="Info/Pag16" unique_id=1069923546]
 self_modulate = Color(0.890196, 0.882353, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1391,7 +1391,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag16"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag16" unique_id=2099795014]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1400,7 +1400,7 @@ vframes = 4
 frame = 34
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag16"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag16" unique_id=1904384415]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1415,14 +1415,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag17" type="Control" parent="Info"]
+[node name="Pag17" type="Control" parent="Info" unique_id=638369988]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag17"]
+[node name="Fondo" type="Panel" parent="Info/Pag17" unique_id=36606250]
 self_modulate = Color(1, 0.894118, 0.890196, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1432,7 +1432,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag17"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag17" unique_id=656135463]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1441,7 +1441,7 @@ vframes = 4
 frame = 22
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag17"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag17" unique_id=1787566166]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1456,14 +1456,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag18" type="Control" parent="Info"]
+[node name="Pag18" type="Control" parent="Info" unique_id=398875408]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag18"]
+[node name="Fondo" type="Panel" parent="Info/Pag18" unique_id=1363795422]
 self_modulate = Color(0.862745, 0.866667, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1473,7 +1473,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag18"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag18" unique_id=251640358]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1482,7 +1482,7 @@ vframes = 4
 frame = 35
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag18"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag18" unique_id=2073433230]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1497,14 +1497,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag19" type="Control" parent="Info"]
+[node name="Pag19" type="Control" parent="Info" unique_id=30186921]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag19"]
+[node name="Fondo" type="Panel" parent="Info/Pag19" unique_id=428557640]
 self_modulate = Color(0.894118, 0.878431, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1514,7 +1514,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag19"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag19" unique_id=1908005966]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1523,7 +1523,7 @@ vframes = 4
 frame = 20
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag19"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag19" unique_id=1761758100]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1538,14 +1538,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag20" type="Control" parent="Info"]
+[node name="Pag20" type="Control" parent="Info" unique_id=825472630]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag20"]
+[node name="Fondo" type="Panel" parent="Info/Pag20" unique_id=2921865]
 self_modulate = Color(1, 0.878431, 0.866667, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1555,7 +1555,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag20"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag20" unique_id=2038400320]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1564,7 +1564,7 @@ vframes = 4
 frame = 13
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag20"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag20" unique_id=186259622]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1579,14 +1579,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag21" type="Control" parent="Info"]
+[node name="Pag21" type="Control" parent="Info" unique_id=2042529821]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag21"]
+[node name="Fondo" type="Panel" parent="Info/Pag21" unique_id=374935416]
 self_modulate = Color(0.890196, 0.894118, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1596,7 +1596,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag21"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag21" unique_id=1699569067]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1605,7 +1605,7 @@ vframes = 4
 frame = 41
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag21"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag21" unique_id=1344286752]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1620,14 +1620,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag22" type="Control" parent="Info"]
+[node name="Pag22" type="Control" parent="Info" unique_id=916045009]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag22"]
+[node name="Fondo" type="Panel" parent="Info/Pag22" unique_id=1147947573]
 self_modulate = Color(0.87451, 0.87451, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1637,7 +1637,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag22"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag22" unique_id=1631107506]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1646,7 +1646,7 @@ vframes = 4
 frame = 28
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag22"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag22" unique_id=1970613105]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1661,14 +1661,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag23" type="Control" parent="Info"]
+[node name="Pag23" type="Control" parent="Info" unique_id=1715853555]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag23"]
+[node name="Fondo" type="Panel" parent="Info/Pag23" unique_id=157786192]
 self_modulate = Color(0.866667, 0.862745, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1678,7 +1678,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag23"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag23" unique_id=1071249583]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1687,7 +1687,7 @@ vframes = 4
 frame = 16
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag23"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag23" unique_id=19123827]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1702,14 +1702,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag24" type="Control" parent="Info"]
+[node name="Pag24" type="Control" parent="Info" unique_id=452384102]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag24"]
+[node name="Fondo" type="Panel" parent="Info/Pag24" unique_id=648761884]
 self_modulate = Color(0.882353, 0.882353, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1719,7 +1719,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag24"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag24" unique_id=1698924816]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1728,7 +1728,7 @@ vframes = 4
 frame = 17
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag24"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag24" unique_id=724737136]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1743,14 +1743,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag25" type="Control" parent="Info"]
+[node name="Pag25" type="Control" parent="Info" unique_id=862637120]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag25"]
+[node name="Fondo" type="Panel" parent="Info/Pag25" unique_id=1463355777]
 self_modulate = Color(0.839216, 0.85098, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1760,7 +1760,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag25"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag25" unique_id=1493573597]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1768,7 +1768,7 @@ hframes = 12
 vframes = 4
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag25"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag25" unique_id=593580040]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1783,14 +1783,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag26" type="Control" parent="Info"]
+[node name="Pag26" type="Control" parent="Info" unique_id=922765503]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag26"]
+[node name="Fondo" type="Panel" parent="Info/Pag26" unique_id=148188790]
 self_modulate = Color(1, 0.905882, 0.901961, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1800,7 +1800,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag26"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag26" unique_id=2146787099]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1809,7 +1809,7 @@ vframes = 4
 frame = 18
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag26"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag26" unique_id=1618908263]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1824,14 +1824,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag27" type="Control" parent="Info"]
+[node name="Pag27" type="Control" parent="Info" unique_id=616865866]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag27"]
+[node name="Fondo" type="Panel" parent="Info/Pag27" unique_id=650238046]
 self_modulate = Color(1, 0.882353, 0.901961, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1841,7 +1841,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag27"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag27" unique_id=2028686972]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1850,7 +1850,7 @@ vframes = 4
 frame = 9
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag27"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag27" unique_id=776704650]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1865,14 +1865,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag28" type="Control" parent="Info"]
+[node name="Pag28" type="Control" parent="Info" unique_id=10844890]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag28"]
+[node name="Fondo" type="Panel" parent="Info/Pag28" unique_id=1285868612]
 self_modulate = Color(0.882353, 0.878431, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1882,7 +1882,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag28"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag28" unique_id=1877877149]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1891,7 +1891,7 @@ vframes = 4
 frame = 42
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag28"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag28" unique_id=1457444201]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1906,14 +1906,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag29" type="Control" parent="Info"]
+[node name="Pag29" type="Control" parent="Info" unique_id=1244200370]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag29"]
+[node name="Fondo" type="Panel" parent="Info/Pag29" unique_id=1150580070]
 self_modulate = Color(0.878431, 0.854902, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1923,7 +1923,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag29"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag29" unique_id=248090061]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1932,7 +1932,7 @@ vframes = 4
 frame = 15
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag29"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag29" unique_id=224548537]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1947,14 +1947,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag30" type="Control" parent="Info"]
+[node name="Pag30" type="Control" parent="Info" unique_id=10767269]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag30"]
+[node name="Fondo" type="Panel" parent="Info/Pag30" unique_id=963718941]
 self_modulate = Color(1, 0.894118, 0.882353, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -1964,7 +1964,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag30"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag30" unique_id=322367050]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -1973,7 +1973,7 @@ vframes = 4
 frame = 45
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag30"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag30" unique_id=1114064341]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -1988,14 +1988,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag31" type="Control" parent="Info"]
+[node name="Pag31" type="Control" parent="Info" unique_id=2121804253]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag31"]
+[node name="Fondo" type="Panel" parent="Info/Pag31" unique_id=981739569]
 self_modulate = Color(1, 0.901961, 0.901961, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2005,7 +2005,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag31"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag31" unique_id=1081481417]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2014,7 +2014,7 @@ vframes = 4
 frame = 39
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag31"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag31" unique_id=1850081727]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2029,14 +2029,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag32" type="Control" parent="Info"]
+[node name="Pag32" type="Control" parent="Info" unique_id=2028754011]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag32"]
+[node name="Fondo" type="Panel" parent="Info/Pag32" unique_id=883821705]
 self_modulate = Color(0.85098, 0.854902, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2046,7 +2046,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag32"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag32" unique_id=576226922]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2055,7 +2055,7 @@ vframes = 4
 frame = 23
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag32"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag32" unique_id=498920545]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2070,14 +2070,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag33" type="Control" parent="Info"]
+[node name="Pag33" type="Control" parent="Info" unique_id=1409892973]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag33"]
+[node name="Fondo" type="Panel" parent="Info/Pag33" unique_id=2069612555]
 self_modulate = Color(0.882353, 0.882353, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2087,7 +2087,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag33"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag33" unique_id=261531839]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2096,7 +2096,7 @@ vframes = 4
 frame = 1
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag33"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag33" unique_id=1004012769]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2111,14 +2111,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag34" type="Control" parent="Info"]
+[node name="Pag34" type="Control" parent="Info" unique_id=1917577105]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag34"]
+[node name="Fondo" type="Panel" parent="Info/Pag34" unique_id=491704332]
 self_modulate = Color(1, 0.882353, 0.882353, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2128,7 +2128,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag34"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag34" unique_id=1274587704]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2137,7 +2137,7 @@ vframes = 4
 frame = 6
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag34"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag34" unique_id=182688833]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2152,14 +2152,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag35" type="Control" parent="Info"]
+[node name="Pag35" type="Control" parent="Info" unique_id=1848563665]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag35"]
+[node name="Fondo" type="Panel" parent="Info/Pag35" unique_id=1464058627]
 self_modulate = Color(0.894118, 0.890196, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2169,7 +2169,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag35"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag35" unique_id=2021299723]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2178,7 +2178,7 @@ vframes = 4
 frame = 33
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag35"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag35" unique_id=1079086702]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2193,14 +2193,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag36" type="Control" parent="Info"]
+[node name="Pag36" type="Control" parent="Info" unique_id=563147222]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag36"]
+[node name="Fondo" type="Panel" parent="Info/Pag36" unique_id=1546137191]
 self_modulate = Color(1, 0.882353, 0.87451, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2210,7 +2210,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag36"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag36" unique_id=452342988]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2219,7 +2219,7 @@ vframes = 4
 frame = 31
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag36"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag36" unique_id=1884008990]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2234,14 +2234,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag37" type="Control" parent="Info"]
+[node name="Pag37" type="Control" parent="Info" unique_id=1609816448]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag37"]
+[node name="Fondo" type="Panel" parent="Info/Pag37" unique_id=701412128]
 self_modulate = Color(0.87451, 0.854902, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2251,7 +2251,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag37"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag37" unique_id=145114352]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2260,7 +2260,7 @@ vframes = 4
 frame = 12
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag37"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag37" unique_id=982887462]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2275,14 +2275,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag38" type="Control" parent="Info"]
+[node name="Pag38" type="Control" parent="Info" unique_id=895599546]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag38"]
+[node name="Fondo" type="Panel" parent="Info/Pag38" unique_id=1703119953]
 self_modulate = Color(1, 0.862745, 0.854902, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2292,7 +2292,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag38"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag38" unique_id=2125355033]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2301,7 +2301,7 @@ vframes = 4
 frame = 36
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag38"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag38" unique_id=907440897]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2316,14 +2316,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag39" type="Control" parent="Info"]
+[node name="Pag39" type="Control" parent="Info" unique_id=1967764430]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag39"]
+[node name="Fondo" type="Panel" parent="Info/Pag39" unique_id=1786464508]
 self_modulate = Color(0.894118, 0.882353, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2333,7 +2333,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag39"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag39" unique_id=1793190385]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2342,7 +2342,7 @@ vframes = 4
 frame = 10
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag39"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag39" unique_id=1474261160]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2357,14 +2357,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag40" type="Control" parent="Info"]
+[node name="Pag40" type="Control" parent="Info" unique_id=900581725]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag40"]
+[node name="Fondo" type="Panel" parent="Info/Pag40" unique_id=603155673]
 self_modulate = Color(1, 0.894118, 0.894118, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2374,7 +2374,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag40"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag40" unique_id=1064212628]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2383,7 +2383,7 @@ vframes = 4
 frame = 38
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag40"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag40" unique_id=907070493]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2398,14 +2398,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag41" type="Control" parent="Info"]
+[node name="Pag41" type="Control" parent="Info" unique_id=962212271]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag41"]
+[node name="Fondo" type="Panel" parent="Info/Pag41" unique_id=135173666]
 self_modulate = Color(1, 0.905882, 0.909804, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2415,7 +2415,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag41"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag41" unique_id=1768759970]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2424,7 +2424,7 @@ vframes = 4
 frame = 19
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag41"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag41" unique_id=585750916]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2439,14 +2439,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag42" type="Control" parent="Info"]
+[node name="Pag42" type="Control" parent="Info" unique_id=1438057812]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag42"]
+[node name="Fondo" type="Panel" parent="Info/Pag42" unique_id=1750595501]
 self_modulate = Color(1, 0.890196, 0.87451, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2456,7 +2456,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag42"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag42" unique_id=1276236027]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2465,7 +2465,7 @@ vframes = 4
 frame = 47
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag42"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag42" unique_id=1853076927]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2480,14 +2480,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag43" type="Control" parent="Info"]
+[node name="Pag43" type="Control" parent="Info" unique_id=561000172]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag43"]
+[node name="Fondo" type="Panel" parent="Info/Pag43" unique_id=2001830324]
 self_modulate = Color(0.878431, 0.878431, 1, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2497,7 +2497,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag43"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag43" unique_id=776076122]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2506,7 +2506,7 @@ vframes = 4
 frame = 44
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag43"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag43" unique_id=305738033]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2521,14 +2521,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag44" type="Control" parent="Info"]
+[node name="Pag44" type="Control" parent="Info" unique_id=750135296]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag44"]
+[node name="Fondo" type="Panel" parent="Info/Pag44" unique_id=1874932135]
 self_modulate = Color(1, 0.878431, 0.878431, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2538,7 +2538,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag44"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag44" unique_id=1863668600]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2547,7 +2547,7 @@ vframes = 4
 frame = 8
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag44"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag44" unique_id=1660792256]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2562,14 +2562,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag45" type="Control" parent="Info"]
+[node name="Pag45" type="Control" parent="Info" unique_id=551087475]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag45"]
+[node name="Fondo" type="Panel" parent="Info/Pag45" unique_id=1635289672]
 self_modulate = Color(1, 0.878431, 0.87451, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2579,7 +2579,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag45"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag45" unique_id=1495049570]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2588,7 +2588,7 @@ vframes = 4
 frame = 11
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag45"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag45" unique_id=107572743]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2603,14 +2603,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag46" type="Control" parent="Info"]
+[node name="Pag46" type="Control" parent="Info" unique_id=2109739760]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag46"]
+[node name="Fondo" type="Panel" parent="Info/Pag46" unique_id=346930339]
 self_modulate = Color(1, 0.878431, 0.866667, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2620,7 +2620,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag46"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag46" unique_id=306666180]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2629,7 +2629,7 @@ vframes = 4
 frame = 7
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag46"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag46" unique_id=1627059342]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2644,14 +2644,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag47" type="Control" parent="Info"]
+[node name="Pag47" type="Control" parent="Info" unique_id=48542140]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag47"]
+[node name="Fondo" type="Panel" parent="Info/Pag47" unique_id=335189962]
 self_modulate = Color(1, 0.878431, 0.878431, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2661,7 +2661,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Info/Pag47"]
+[node name="Imagen" type="Sprite2D" parent="Info/Pag47" unique_id=1873020030]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2670,7 +2670,7 @@ vframes = 4
 frame = 4
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag47"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag47" unique_id=1248214356]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2685,14 +2685,14 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Pag48" type="Control" parent="Info"]
+[node name="Pag48" type="Control" parent="Info" unique_id=1868057643]
 visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Info/Pag48"]
+[node name="Fondo" type="Panel" parent="Info/Pag48" unique_id=946863645]
 self_modulate = Color(0.866667, 1, 0.87451, 1)
 layout_mode = 0
 offset_left = 11.0
@@ -2702,7 +2702,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Matrix" type="Label" parent="Info/Pag48"]
+[node name="Matrix" type="Label" parent="Info/Pag48" unique_id=380614458]
 layout_mode = 0
 offset_left = 28.0
 offset_top = 23.0
@@ -2715,7 +2715,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_lock_ = true
 
-[node name="Texto" type="RichTextLabel" parent="Info/Pag48"]
+[node name="Texto" type="RichTextLabel" parent="Info/Pag48" unique_id=257124429]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
@@ -2730,15 +2730,16 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Menu" type="Panel" parent="."]
+[node name="Menu" type="Panel" parent="." unique_id=1429076319]
 layout_mode = 0
 offset_right = 1152.0
-offset_bottom = 273.0
+offset_bottom = 277.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_wd5o3")
 metadata/_edit_lock_ = true
 
-[node name="Fondo" type="Panel" parent="Menu"]
+[node name="Fondo" type="Panel" parent="Menu" unique_id=579154451]
 self_modulate = Color(1, 1, 0.796078, 1)
+layout_mode = 0
 offset_left = 11.0
 offset_top = 9.0
 offset_right = 376.0
@@ -2746,7 +2747,7 @@ offset_bottom = 268.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_06eai")
 metadata/_edit_lock_ = true
 
-[node name="Imagen" type="Sprite2D" parent="Menu"]
+[node name="Imagen" type="Sprite2D" parent="Menu" unique_id=1012456847]
 position = Vector2(194, 138)
 scale = Vector2(0.85, 0.85)
 texture = ExtResource("10_wd5o3")
@@ -2755,7 +2756,8 @@ vframes = 4
 frame = 21
 metadata/_edit_lock_ = true
 
-[node name="Saludo" type="RichTextLabel" parent="Menu"]
+[node name="Saludo" type="RichTextLabel" parent="Menu" unique_id=666426576]
+layout_mode = 0
 offset_left = 200.0
 offset_top = 45.0
 offset_right = 349.0
@@ -2772,7 +2774,8 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Introduccion" type="RichTextLabel" parent="Menu"]
+[node name="Introduccion" type="RichTextLabel" parent="Menu" unique_id=238942617]
+layout_mode = 0
 offset_left = 399.0
 offset_top = 20.0
 offset_right = 988.0
@@ -2786,7 +2789,8 @@ vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Creditos" type="RichTextLabel" parent="Menu"]
+[node name="Creditos" type="RichTextLabel" parent="Menu" unique_id=395466625]
+layout_mode = 0
 offset_left = 1003.0
 offset_top = 102.0
 offset_right = 1133.0
@@ -2795,16 +2799,16 @@ mouse_filter = 2
 theme = ExtResource("1_kxyy5")
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 text = "Créditos:
-
 Omwekiatl
-Erik S."
+Erik S. C.
+Brahian A."
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
 drag_and_drop_selection_enabled = false
 metadata/_edit_lock_ = true
 
-[node name="Button" type="Button" parent="Menu"]
+[node name="Button" type="Button" parent="Menu" unique_id=1299969519]
 layout_mode = 0
 offset_left = 1008.0
 offset_top = 27.0
@@ -2814,15 +2818,15 @@ focus_mode = 0
 mouse_default_cursor_shape = 2
 theme = ExtResource("12_m7g0u")
 text = "Exámen"
+metadata/_edit_lock_ = true
 
-[node name="Anima" type="AnimationPlayer" parent="."]
-libraries = {
-&"": SubResource("AnimationLibrary_m7g0u")
-}
+[node name="Anima" type="AnimationPlayer" parent="." unique_id=254793562]
+libraries/ = SubResource("AnimationLibrary_m7g0u")
 
-[node name="TimerMatrix" type="Timer" parent="."]
+[node name="TimerMatrix" type="Timer" parent="." unique_id=707469641]
 wait_time = 0.25
 autostart = true
 
 [connection signal="pressed" from="BtnBack" to="." method="_on_btn_back_pressed"]
+[connection signal="pressed" from="Menu/Button" to="." method="_on_button_pressed"]
 [connection signal="timeout" from="TimerMatrix" to="." method="_on_timer_matrix_timeout"]

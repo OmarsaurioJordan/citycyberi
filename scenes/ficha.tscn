@@ -1,0 +1,102 @@
+[gd_scene format=3 uid="uid://c4r7l6xneby0y"]
+
+[ext_resource type="FontFile" uid="uid://cox7454iqk5me" path="res://sprites/comic_sana.ttf" id="1_nkg04"]
+
+[node name="Ficha" type="VBoxContainer" unique_id=1418866226]
+theme_override_constants/separation = 0
+metadata/_edit_lock_ = true
+
+[node name="Data" type="HBoxContainer" parent="." unique_id=1052917742]
+layout_mode = 2
+theme_override_constants/separation = 16
+metadata/_edit_lock_ = true
+
+[node name="Header" type="VBoxContainer" parent="Data" unique_id=442144478]
+layout_mode = 2
+size_flags_horizontal = 3
+metadata/_edit_lock_ = true
+
+[node name="Nombre" type="Label" parent="Data/Header" unique_id=286917833]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.31232148, 0.09102038, 0.41743577, 1)
+theme_override_fonts/font = ExtResource("1_nkg04")
+theme_override_font_sizes/font_size = 22
+text = "Nombre"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+metadata/_edit_lock_ = true
+
+[node name="Fecha" type="Label" parent="Data/Header" unique_id=1706241093]
+self_modulate = Color(1, 1, 1, 0.78431374)
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.3137255, 0.09019608, 0.41568628, 1)
+theme_override_fonts/font = ExtResource("1_nkg04")
+theme_override_font_sizes/font_size = 16
+text = "Fecha"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+metadata/_edit_lock_ = true
+
+[node name="NotaUsr" type="Label" parent="Data" unique_id=1330887055]
+self_modulate = Color(1, 1, 1, 0.78431374)
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.19546962, 0.14386725, 0.49377525, 1)
+theme_override_fonts/font = ExtResource("1_nkg04")
+theme_override_font_sizes/font_size = 22
+text = "Nota 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="NotaTec" type="Label" parent="Data" unique_id=1573384971]
+self_modulate = Color(1, 1, 1, 0.78431374)
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.37249473, 0.10109072, 0.23351675, 1)
+theme_override_fonts/font = ExtResource("1_nkg04")
+theme_override_font_sizes/font_size = 22
+text = "Nota 2"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="NotaFin" type="Label" parent="Data" unique_id=280969080]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.3137255, 0.09019608, 0.41568628, 1)
+theme_override_fonts/font = ExtResource("1_nkg04")
+theme_override_font_sizes/font_size = 22
+text = "Nota 3"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Grb" type="Label" parent="Data" unique_id=1191661939]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.3137255, 0.09019608, 0.41568628, 1)
+theme_override_fonts/font = ExtResource("1_nkg04")
+theme_override_font_sizes/font_size = 22
+text = "..."
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Fecha" type="Label" parent="." unique_id=1520205996]
+self_modulate = Color(1, 1, 1, 0.78431374)
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.3137255, 0.09019608, 0.41568628, 1)
+theme_override_fonts/font = ExtResource("1_nkg04")
+theme_override_font_sizes/font_size = 16
+text = "----------------------------------------------------------------------------"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+metadata/_edit_lock_ = true

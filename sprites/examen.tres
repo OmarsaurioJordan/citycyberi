@@ -1,6 +1,6 @@
-[gd_resource type="Theme" load_steps=8 format=3 uid="uid://bo1glg3wtav3p"]
+[gd_resource type="Theme" format=3 uid="uid://bo1glg3wtav3p"]
 
-[ext_resource type="FontFile" uid="uid://uuqtp3w6mkn6" path="res://sprites/comic_sana.ttf" id="1_hs8ml"]
+[ext_resource type="FontFile" uid="uid://cox7454iqk5me" path="res://sprites/comic_sana.ttf" id="1_hs8ml"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0ixe1"]
 

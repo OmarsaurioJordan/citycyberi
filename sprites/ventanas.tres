@@ -1,6 +1,6 @@
-[gd_resource type="Theme" load_steps=10 format=3 uid="uid://bp28txghn1ic1"]
+[gd_resource type="Theme" format=3 uid="uid://bp28txghn1ic1"]
 
-[ext_resource type="FontFile" uid="uid://uuqtp3w6mkn6" path="res://sprites/comic_sana.ttf" id="1_a85fq"]
+[ext_resource type="FontFile" uid="uid://cox7454iqk5me" path="res://sprites/comic_sana.ttf" id="1_a85fq"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4r0su"]
 bg_color = Color(0.0710316, 0.159956, 0.230884, 1)

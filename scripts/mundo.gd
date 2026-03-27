@@ -1,5 +1,7 @@
 extends Control
 
+const EXAMEN = preload("res://scenes/examen.tscn")
+
 # las fichas: rojo (atacante), verde (victima), azul (proteccion)
 
 var matrix = []
@@ -41,6 +43,7 @@ func _on_btn_back_pressed() -> void:
 	$Menu.visible = true
 
 func putNumVentana() -> void:
+	# coloca los numeros ind en cada ventana
 	for btn in $Ventanas.get_children():
 		var ind = btn.name.replace("Btn", "")
 		btn.text = ind
@@ -70,3 +73,7 @@ func _on_timer_matrix_timeout() -> void:
 			break
 		m += "\n"
 	$Info/Pag48/Matrix.text = m
+
+func _on_button_pressed() -> void:
+	var examen = EXAMEN.instantiate()
+	add_child(examen)
