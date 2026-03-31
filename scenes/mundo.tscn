@@ -1080,7 +1080,7 @@ offset_right = 1124.0
 offset_bottom = 253.0
 mouse_filter = 2
 theme = ExtResource("1_kxyy5")
-text = "Hoy Arnold cree que tiene suerte, volviendo del gimnasio ha encontrado en las escaleras una memoria USB, que según etiqueta es de su vecina Mariana, cree que es la oportunidad para hablarle pero primero... va a revisarla sin saber que está infectada,Arnold cae mediante la técnica de ingeniería social llamada \"baiting\", donde el hacker pone un ansuelo atractivo, por ejemplo, un juego corrupto"
+text = "Hoy Arnold cree que tiene suerte, volviendo del gimnasio ha encontrado en las escaleras una memoria USB, que según etiqueta es de su vecina Maribel, cree que es la oportunidad para hablarle pero primero... va a revisarla sin saber que está infectada, Arnold cae mediante la técnica de ingeniería social llamada \"baiting\", donde el hacker pone un ansuelo atractivo, por ejemplo, un juego corrupto"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -1162,7 +1162,7 @@ offset_right = 1124.0
 offset_bottom = 253.0
 mouse_filter = 2
 theme = ExtResource("1_kxyy5")
-text = "Ésta es la habitación provada de Mariana, lo que ella desconoce es que su fiel dispositivo móvil ha sido infectado con un RAT (Remote Acces Trojan), todo por haber descargado un videojuego pirata, ahora su cámara la espía y los hackers pueden sobornarla con pagos a cambio de no difundir sus fotos íntimas por la web. Además de los cuidados en la navegación y ejecución, es bueno tapar las cámaras"
+text = "Ésta es la habitación privada de Maribel, lo que ella desconoce es que su fiel dispositivo móvil ha sido infectado con un RAT (Remote Acces Trojan), todo por haber descargado un videojuego pirata, ahora su cámara la espía y los hackers pueden sobornarla con pagos a cambio de no difundir sus fotos íntimas por la web. Además de los cuidados en la navegación y ejecución, es bueno tapar las cámaras"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -2798,10 +2798,9 @@ offset_bottom = 253.0
 mouse_filter = 2
 theme = ExtResource("1_kxyy5")
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-text = "Créditos:
-Omwekiatl
-Erik S. C.
-Brahian A."
+text = "Omwekiatl
+2026
+v1"
 scroll_active = false
 horizontal_alignment = 1
 vertical_alignment = 1

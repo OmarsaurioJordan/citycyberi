@@ -1,9 +1,11 @@
 [gd_scene format=3 uid="uid://c4r7l6xneby0y"]
 
+[ext_resource type="Script" uid="uid://bx8ywhq5w6myo" path="res://scripts/ficha.gd" id="1_gfo57"]
 [ext_resource type="FontFile" uid="uid://cox7454iqk5me" path="res://sprites/comic_sana.ttf" id="1_nkg04"]
 
 [node name="Ficha" type="VBoxContainer" unique_id=1418866226]
 theme_override_constants/separation = 0
+script = ExtResource("1_gfo57")
 metadata/_edit_lock_ = true
 
 [node name="Data" type="HBoxContainer" parent="." unique_id=1052917742]
