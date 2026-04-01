@@ -2,8 +2,8 @@ extends Control
 
 const FICHA: PackedScene = preload("res://scenes/ficha.tscn")
 const RUTA: String = "user://save.txt"
-const MINUTOS: int = 3
-const PREGUNTAS: int = 20
+const PREGUNTAS: int = 40
+const MINUTOS: int = 20
 
 @onready var la_info: String = $Oscuro/Evaluacion/Informacion.text
 var segundos: float = MINUTOS * 60.0
@@ -144,8 +144,9 @@ func leer_archivo(ruta: String) -> Array:
 			archivo.close()
 			contenido = txt.split("\n", false)
 			for i in range(len(contenido)):
-				var bytes = Marshalls.base64_to_raw(contenido[i])
-				contenido[i] = bytes.get_string_from_utf8()
+				if contenido[i] != "":
+					var bytes = Marshalls.base64_to_raw(contenido[i])
+					contenido[i] = bytes.get_string_from_utf8()
 		return contenido
 	return []
 

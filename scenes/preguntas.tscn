@@ -1,0 +1,3150 @@
+[gd_scene format=3 uid="uid://cbdjven02f48v"]
+
+[ext_resource type="FontFile" uid="uid://cox7454iqk5me" path="res://sprites/comic_sana.ttf" id="1_wpqfo"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i2bpl"]
+bg_color = Color(0.83033526, 0.83033514, 0.830335, 1)
+
+[node name="Preguntas" type="Control" unique_id=170764994]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+metadata/_edit_lock_ = true
+
+[node name="Usr1" type="Label" parent="." unique_id=945952271]
+layout_mode = 0
+offset_left = 1196.0
+offset_top = 21.0
+offset_right = 1773.0
+offset_bottom = 251.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "¿Cómo podría protegerse un archivo con contraseña, de un algoritmo que iterativamente busca todas las combinaciónes posibles? (archivo pero en general aplica a cualquier sistema con contraseña)"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Usr1" unique_id=1192079363]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "una clave larga de diversos símbolos
+las pag web resisten esos algoritmos
+evitando usar palabras predecibles
+usando códigos numéricos"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec1" type="Label" parent="." unique_id=836511114]
+layout_mode = 0
+offset_left = 1605.0
+offset_top = 19.0
+offset_right = 2182.0
+offset_bottom = 249.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Cuando un acceso está protegido por contraseña, se podría probar una por una todas las posibilidades, esto se realiza con algoritmos pues manualmente sería lentísimo, dicha técnica se llama"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Tec1" unique_id=1399419317]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "algoritmo de fuerza bruta
+violación de contraseñas
+búsqueda iterativa automática
+script de forzamiento 1 a N"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr2" type="Label" parent="." unique_id=1241825243]
+layout_mode = 0
+offset_left = 1194.0
+offset_top = 298.0
+offset_right = 1771.0
+offset_bottom = 528.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "¿Cuál de las siguientes medidas es importante para proteger la privacidad, sin ser una exageración producto de la paranoía, pues supone una barrera última infalible en un caso totalmente necesario?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Usr2" unique_id=815963161]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "tapar o desviar las cámaras
+usar modo incógnito en tu PC
+movilizarse con modo avión
+no registrarte con tus datos reales"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec2" type="Label" parent="." unique_id=1274447156]
+layout_mode = 0
+offset_left = 1603.0
+offset_top = 296.0
+offset_right = 2180.0
+offset_bottom = 526.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Si se lograra convencer a un usuario de smartphone para instalar algo malicioso, qué sería lo peor ¿Que podría instalarse en su dispositivo? Aquello que permitiría al hacker hacer más acciónes"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Tec2" unique_id=107236593]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "un RAT (Remote Acces Trojan)
+un Keylogger que lea el teclado
+Ransomware, secuestra archivos
+el CryptoJacking para minería"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr3" type="Label" parent="." unique_id=1945505830]
+layout_mode = 0
+offset_left = 1194.0
+offset_top = 581.0
+offset_right = 1771.0
+offset_bottom = 811.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "¿Para qué sirve un servicio de VPN? esos que usualmente se pagan bajo contrato de mensualidad, junto con antivirus y Firewalls"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Usr3" unique_id=1929650112]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "cifrar data y ocultar su orígen
+filtrar conexiónes a puertos
+detectar amenazas a tiempo
+emular procesos virtualmente"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec3" type="Label" parent="." unique_id=706788755]
+layout_mode = 0
+offset_left = 1603.0
+offset_top = 579.0
+offset_right = 2180.0
+offset_bottom = 809.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Los computadores además de direcciónes IP tienen varios puertos para recibir o enviar mensajes en red ¿Qué sistema se usa para administrar, filtrar y bloquear el uso de estos puertos y conexiónes?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Tec3" unique_id=1568464519]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Firewall
+Port Reject (PR)
+Trojan
+Antivirus"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr4" type="Label" parent="." unique_id=1805147054]
+layout_mode = 0
+offset_left = 1198.0
+offset_top = 873.0
+offset_right = 1775.0
+offset_bottom = 1103.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "En un evento social, están vendiendo memorias con videojuegos, el vendedor obtiene dinero por las ventas y tú un videojuego ¿Qué podría salir mal?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr4" unique_id=199812881]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec4" type="Label" parent="." unique_id=794496576]
+layout_mode = 0
+offset_left = 1607.0
+offset_top = 871.0
+offset_right = 2184.0
+offset_bottom = 1101.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Has encontrado un dispositivo de memoria que se le cayó a alguien en un bus, quizá sea hasta alguien que te interesa o quizá no sabes a quién se le cayó, el hecho es que crees tener suerte por hacerte con la información que hay allí ¿Cómo No deberías accederla?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Tec4" unique_id=645207490]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "escaneándola con el antivirus
+la veo en un computador público
+uso una máquina virtual Linux
+en un secundario PC que resetearé"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr5" type="Label" parent="." unique_id=379668218]
+layout_mode = 0
+offset_left = 1196.0
+offset_top = 1144.0
+offset_right = 1773.0
+offset_bottom = 1374.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "delincuencia común"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr5" unique_id=1445941427]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec5" type="Label" parent="." unique_id=2135686580]
+layout_mode = 0
+offset_left = 1605.0
+offset_top = 1142.0
+offset_right = 2182.0
+offset_bottom = 1372.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec5" unique_id=153161482]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr6" type="Label" parent="." unique_id=157659523]
+layout_mode = 0
+offset_left = 1196.0
+offset_top = 1415.0
+offset_right = 1773.0
+offset_bottom = 1645.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "traición encargado ciberseguridad software empresa"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr6" unique_id=1192866102]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec6" type="Label" parent="." unique_id=1933023532]
+layout_mode = 0
+offset_left = 1605.0
+offset_top = 1413.0
+offset_right = 2182.0
+offset_bottom = 1643.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec6" unique_id=1505896345]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr7" type="Label" parent="." unique_id=1933920846]
+layout_mode = 0
+offset_left = 1187.0
+offset_top = 1697.0
+offset_right = 1764.0
+offset_bottom = 1927.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "virus afecta hardware"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr7" unique_id=510404471]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec7" type="Label" parent="." unique_id=1769311784]
+layout_mode = 0
+offset_left = 1596.0
+offset_top = 1695.0
+offset_right = 2173.0
+offset_bottom = 1925.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec7" unique_id=1471196160]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr8" type="Label" parent="." unique_id=768697128]
+layout_mode = 0
+offset_left = 1181.0
+offset_top = 1968.0
+offset_right = 1758.0
+offset_bottom = 2198.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "pretexting + deepfake voz"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr8" unique_id=277083138]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec8" type="Label" parent="." unique_id=135714589]
+layout_mode = 0
+offset_left = 1590.0
+offset_top = 1966.0
+offset_right = 2167.0
+offset_bottom = 2196.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec8" unique_id=1963481550]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr9" type="Label" parent="." unique_id=1297404710]
+layout_mode = 0
+offset_left = 1184.0
+offset_top = 2248.0
+offset_right = 1761.0
+offset_bottom = 2478.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "DDoS"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr9" unique_id=1284585704]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec9" type="Label" parent="." unique_id=1769268013]
+layout_mode = 0
+offset_left = 1593.0
+offset_top = 2246.0
+offset_right = 2170.0
+offset_bottom = 2476.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec9" unique_id=281306116]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr10" type="Label" parent="." unique_id=743140037]
+layout_mode = 0
+offset_left = 1181.0
+offset_top = 2527.0
+offset_right = 1758.0
+offset_bottom = 2757.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "zero day"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr10" unique_id=396664133]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec10" type="Label" parent="." unique_id=529292021]
+layout_mode = 0
+offset_left = 1590.0
+offset_top = 2525.0
+offset_right = 2167.0
+offset_bottom = 2755.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec10" unique_id=1221960877]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr11" type="Label" parent="." unique_id=2087524457]
+layout_mode = 0
+offset_left = 2136.0
+offset_top = 31.0
+offset_right = 2713.0
+offset_bottom = 261.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "cavernícola"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr11" unique_id=1661863245]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec11" type="Label" parent="." unique_id=1671564501]
+layout_mode = 0
+offset_left = 2545.0
+offset_top = 29.0
+offset_right = 3122.0
+offset_bottom = 259.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec11" unique_id=2056936468]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr12" type="Label" parent="." unique_id=1911191896]
+layout_mode = 0
+offset_left = 2134.0
+offset_top = 308.0
+offset_right = 2711.0
+offset_bottom = 538.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "SQL injection"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr12" unique_id=1691354200]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec12" type="Label" parent="." unique_id=371693415]
+layout_mode = 0
+offset_left = 2543.0
+offset_top = 306.0
+offset_right = 3120.0
+offset_bottom = 536.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec12" unique_id=1863644489]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr13" type="Label" parent="." unique_id=528732589]
+layout_mode = 0
+offset_left = 2134.0
+offset_top = 591.0
+offset_right = 2711.0
+offset_bottom = 821.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "XSS"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr13" unique_id=1006763129]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec13" type="Label" parent="." unique_id=708841469]
+layout_mode = 0
+offset_left = 2543.0
+offset_top = 589.0
+offset_right = 3120.0
+offset_bottom = 819.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec13" unique_id=914368391]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr14" type="Label" parent="." unique_id=624913460]
+layout_mode = 0
+offset_left = 2138.0
+offset_top = 883.0
+offset_right = 2715.0
+offset_bottom = 1113.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "ransomware"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr14" unique_id=580993065]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec14" type="Label" parent="." unique_id=347745358]
+layout_mode = 0
+offset_left = 2547.0
+offset_top = 881.0
+offset_right = 3124.0
+offset_bottom = 1111.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec14" unique_id=1945742526]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr15" type="Label" parent="." unique_id=818607669]
+layout_mode = 0
+offset_left = 2136.0
+offset_top = 1154.0
+offset_right = 2713.0
+offset_bottom = 1384.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "cryptojacking minería"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr15" unique_id=1707033009]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec15" type="Label" parent="." unique_id=659591366]
+layout_mode = 0
+offset_left = 2545.0
+offset_top = 1152.0
+offset_right = 3122.0
+offset_bottom = 1382.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec15" unique_id=1616094376]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr16" type="Label" parent="." unique_id=579260276]
+layout_mode = 0
+offset_left = 2136.0
+offset_top = 1425.0
+offset_right = 2713.0
+offset_bottom = 1655.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "datos falsos en perfiles de joda para despistar hackers"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr16" unique_id=1667106060]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec16" type="Label" parent="." unique_id=441183240]
+layout_mode = 0
+offset_left = 2545.0
+offset_top = 1423.0
+offset_right = 3122.0
+offset_bottom = 1653.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec16" unique_id=1981522543]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr17" type="Label" parent="." unique_id=1819819625]
+layout_mode = 0
+offset_left = 2127.0
+offset_top = 1707.0
+offset_right = 2704.0
+offset_bottom = 1937.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "futuro del hackeo IA"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr17" unique_id=1100975614]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec17" type="Label" parent="." unique_id=734584121]
+layout_mode = 0
+offset_left = 2536.0
+offset_top = 1705.0
+offset_right = 3113.0
+offset_bottom = 1935.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec17" unique_id=847172430]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr18" type="Label" parent="." unique_id=706920634]
+layout_mode = 0
+offset_left = 2121.0
+offset_top = 1978.0
+offset_right = 2698.0
+offset_bottom = 2208.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "pags web oficiales"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr18" unique_id=1186502685]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec18" type="Label" parent="." unique_id=515454733]
+layout_mode = 0
+offset_left = 2530.0
+offset_top = 1976.0
+offset_right = 3107.0
+offset_bottom = 2206.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec18" unique_id=717439417]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr19" type="Label" parent="." unique_id=674267438]
+layout_mode = 0
+offset_left = 2124.0
+offset_top = 2258.0
+offset_right = 2701.0
+offset_bottom = 2488.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "cookies, registros, accesos config pag web, escan antivirus, incógnito"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr19" unique_id=380592705]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec19" type="Label" parent="." unique_id=1071108066]
+layout_mode = 0
+offset_left = 2533.0
+offset_top = 2256.0
+offset_right = 3110.0
+offset_bottom = 2486.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec19" unique_id=2008638220]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr20" type="Label" parent="." unique_id=883219239]
+layout_mode = 0
+offset_left = 2121.0
+offset_top = 2537.0
+offset_right = 2698.0
+offset_bottom = 2767.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "pishing suplantación sitio web"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr20" unique_id=892878440]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec20" type="Label" parent="." unique_id=1631282835]
+layout_mode = 0
+offset_left = 2530.0
+offset_top = 2535.0
+offset_right = 3107.0
+offset_bottom = 2765.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec20" unique_id=1522892888]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr21" type="Label" parent="." unique_id=666235603]
+layout_mode = 0
+offset_left = 3167.0
+offset_top = 36.0
+offset_right = 3744.0
+offset_bottom = 266.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "otro PC para cosas locas"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr21" unique_id=493046291]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec21" type="Label" parent="." unique_id=2116595477]
+layout_mode = 0
+offset_left = 3576.0
+offset_top = 34.0
+offset_right = 4153.0
+offset_bottom = 264.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec21" unique_id=627076052]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr22" type="Label" parent="." unique_id=1317118444]
+layout_mode = 0
+offset_left = 3165.0
+offset_top = 313.0
+offset_right = 3742.0
+offset_bottom = 543.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "quid pro quo, para obtener info tarjetas"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr22" unique_id=2072647071]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec22" type="Label" parent="." unique_id=1828935419]
+layout_mode = 0
+offset_left = 3574.0
+offset_top = 311.0
+offset_right = 4151.0
+offset_bottom = 541.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec22" unique_id=1337107898]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr23" type="Label" parent="." unique_id=1066324915]
+layout_mode = 0
+offset_left = 3165.0
+offset_top = 596.0
+offset_right = 3742.0
+offset_bottom = 826.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "repositorios, drive, etc"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr23" unique_id=1835149042]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec23" type="Label" parent="." unique_id=1519537849]
+layout_mode = 0
+offset_left = 3574.0
+offset_top = 594.0
+offset_right = 4151.0
+offset_bottom = 824.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec23" unique_id=1685816051]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr24" type="Label" parent="." unique_id=1243612265]
+layout_mode = 0
+offset_left = 3169.0
+offset_top = 888.0
+offset_right = 3746.0
+offset_bottom = 1118.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "password multifactor y biométrico"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr24" unique_id=62203186]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec24" type="Label" parent="." unique_id=1370325838]
+layout_mode = 0
+offset_left = 3578.0
+offset_top = 886.0
+offset_right = 4155.0
+offset_bottom = 1116.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec24" unique_id=1455529784]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr25" type="Label" parent="." unique_id=1171503068]
+layout_mode = 0
+offset_left = 3167.0
+offset_top = 1159.0
+offset_right = 3744.0
+offset_bottom = 1389.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "virtualmachine"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr25" unique_id=1797244618]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec25" type="Label" parent="." unique_id=2076916122]
+layout_mode = 0
+offset_left = 3576.0
+offset_top = 1157.0
+offset_right = 4153.0
+offset_bottom = 1387.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec25" unique_id=1878140864]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr26" type="Label" parent="." unique_id=517115935]
+layout_mode = 0
+offset_left = 3167.0
+offset_top = 1430.0
+offset_right = 3744.0
+offset_bottom = 1660.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "pornosotros"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr26" unique_id=831157717]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec26" type="Label" parent="." unique_id=247153849]
+layout_mode = 0
+offset_left = 3576.0
+offset_top = 1428.0
+offset_right = 4153.0
+offset_bottom = 1658.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Si eres un hacker y quieres infectar fácilmente a personas incautas, aprovechando sus vulnerabilidades emocionáles y necesidades biológicas ¿Cuál de las siguientes es la mejor estratégia?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Tec26" unique_id=171361679]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "crear una llamativa página porno
+hacer una página de comida rápida
+subir a PlayStore una App de citas
+vender en Steam un juego erótico"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr27" type="Label" parent="." unique_id=1712620175]
+layout_mode = 0
+offset_left = 3158.0
+offset_top = 1712.0
+offset_right = 3735.0
+offset_bottom = 1942.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "¿Si crean perfiles falsos haciéndose pasar por tí en redes sociales y eso desata ataques sociales contra tí, qué No deberías hacer ante esta situación?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Usr27" unique_id=172358525]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "cerrar mi perfil oficial por el bulling
+denunciar a los falsos perfiles
+crear una alerta ante la comunidad
+restringir mi información personal"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec27" type="Label" parent="." unique_id=1754045246]
+layout_mode = 0
+offset_left = 3567.0
+offset_top = 1710.0
+offset_right = 4144.0
+offset_bottom = 1940.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Las redes sociales y su naturaleza anónima permiten crear perfiles falsos, esto es muy útil para proteger tu información mientras interactúas con desconocidos, pero ¿Qué delito suelen cometer los atacantes aprovechando esta característica?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Tec27" unique_id=313230348]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "hacerse pasar por otra persona
+convencerte de abrir un link viral
+hacer spam de publicidad
+crear perfiles de personajes"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr28" type="Label" parent="." unique_id=2049608528]
+layout_mode = 0
+offset_left = 3152.0
+offset_top = 1983.0
+offset_right = 3729.0
+offset_bottom = 2213.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "linux"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr28" unique_id=971588142]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec28" type="Label" parent="." unique_id=1566457284]
+layout_mode = 0
+offset_left = 3561.0
+offset_top = 1981.0
+offset_right = 4138.0
+offset_bottom = 2211.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec28" unique_id=2014435581]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr29" type="Label" parent="." unique_id=147459017]
+layout_mode = 0
+offset_left = 3155.0
+offset_top = 2263.0
+offset_right = 3732.0
+offset_bottom = 2493.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "password spraying + credential stuffing, pass flojo cuenta juegos a ver si"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr29" unique_id=619900639]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec29" type="Label" parent="." unique_id=1660709275]
+layout_mode = 0
+offset_left = 3564.0
+offset_top = 2261.0
+offset_right = 4141.0
+offset_bottom = 2491.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec29" unique_id=1053867127]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr30" type="Label" parent="." unique_id=1847781793]
+layout_mode = 0
+offset_left = 3152.0
+offset_top = 2542.0
+offset_right = 3729.0
+offset_bottom = 2772.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "insta personal vs publico"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr30" unique_id=950458468]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec30" type="Label" parent="." unique_id=1979101619]
+layout_mode = 0
+offset_left = 3561.0
+offset_top = 2540.0
+offset_right = 4138.0
+offset_bottom = 2770.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec30" unique_id=512756289]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr31" type="Label" parent="." unique_id=671844348]
+layout_mode = 0
+offset_left = 4228.0
+offset_top = 41.0
+offset_right = 4805.0
+offset_bottom = 271.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "sandbox"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr31" unique_id=1791382614]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec31" type="Label" parent="." unique_id=152435169]
+layout_mode = 0
+offset_left = 4637.0
+offset_top = 39.0
+offset_right = 5214.0
+offset_bottom = 269.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec31" unique_id=1977048131]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr32" type="Label" parent="." unique_id=652642382]
+layout_mode = 0
+offset_left = 4226.0
+offset_top = 318.0
+offset_right = 4803.0
+offset_bottom = 548.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "menores no internet supervis"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr32" unique_id=108198806]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec32" type="Label" parent="." unique_id=450552050]
+layout_mode = 0
+offset_left = 4635.0
+offset_top = 316.0
+offset_right = 5212.0
+offset_bottom = 546.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec32" unique_id=1770036973]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr33" type="Label" parent="." unique_id=2063290925]
+layout_mode = 0
+offset_left = 4226.0
+offset_top = 601.0
+offset_right = 4803.0
+offset_bottom = 831.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "softare y hardware nuevo"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr33" unique_id=236774279]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec33" type="Label" parent="." unique_id=462725504]
+layout_mode = 0
+offset_left = 4635.0
+offset_top = 599.0
+offset_right = 5212.0
+offset_bottom = 829.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Si tenemos un sistema software o hardware, finalizado y desplegado ¿Cómo aseguramos que no vaya a ser hackeado algún día, tras los múltiples ensayos de los hackers?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Tec33" unique_id=2012067319]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "testeamos hackearlo y lo mejoramos
+si se hizo bien debe ser blindado
+de todos modos todo es hackeable
+hacemos upgrade de claves internas"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr34" type="Label" parent="." unique_id=748625570]
+layout_mode = 0
+offset_left = 4230.0
+offset_top = 893.0
+offset_right = 4807.0
+offset_bottom = 1123.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Si obtienes un software y te dicen que en la página oficial hay una clave MD5 del mismo ¿Esto qué significa?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr34" unique_id=187041548]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "puedo comprobar si está intacto
+es un ticket para contactar a ayuda
+los MD5 son cupones promocionales
+puedo desbloquear funciónes pro"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec34" type="Label" parent="." unique_id=390283254]
+layout_mode = 0
+offset_left = 4639.0
+offset_top = 891.0
+offset_right = 5216.0
+offset_bottom = 1121.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Como creadores de software de distribución gratuita ¿Cuál de las siguientes opciónes nos sirve para comprobarle a nuestra comunidad que el producto no ha sido alterado por terceros / distribuidores?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Tec34" unique_id=745397346]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "claves de integridad hash
+mostrarnos como empresa seria
+tener un deblog de desarrollo
+listar a nuestros distribuidores"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr35" type="Label" parent="." unique_id=836485648]
+layout_mode = 0
+offset_left = 4228.0
+offset_top = 1164.0
+offset_right = 4805.0
+offset_bottom = 1394.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "spyware keylogger"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr35" unique_id=59588991]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec35" type="Label" parent="." unique_id=1736232646]
+layout_mode = 0
+offset_left = 4637.0
+offset_top = 1162.0
+offset_right = 5214.0
+offset_bottom = 1392.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "¿Qué hace un Troyano de tipo Keylogger?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Tec35" unique_id=1926205182]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "registra y envía las teclas pulsadas
+modifica los caracteres pulsados
+secuestra los datos de formularios
+controla el sistema desde el teclado"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr36" type="Label" parent="." unique_id=2004148320]
+layout_mode = 0
+offset_left = 4228.0
+offset_top = 1435.0
+offset_right = 4805.0
+offset_bottom = 1665.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "servicio gratis tu el producto, empresas quieren tus datos"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr36" unique_id=2095415776]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec36" type="Label" parent="." unique_id=101821896]
+layout_mode = 0
+offset_left = 4637.0
+offset_top = 1433.0
+offset_right = 5214.0
+offset_bottom = 1663.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec36" unique_id=1174895447]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr37" type="Label" parent="." unique_id=85901634]
+layout_mode = 0
+offset_left = 4219.0
+offset_top = 1717.0
+offset_right = 4796.0
+offset_bottom = 1947.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "3 tipos hacker, diversión, activista, dinero"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr37" unique_id=826755818]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec37" type="Label" parent="." unique_id=916638481]
+layout_mode = 0
+offset_left = 4628.0
+offset_top = 1715.0
+offset_right = 5205.0
+offset_bottom = 1945.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec37" unique_id=1896408594]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr38" type="Label" parent="." unique_id=1008276688]
+layout_mode = 0
+offset_left = 4213.0
+offset_top = 1988.0
+offset_right = 4790.0
+offset_bottom = 2218.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "acceso GPS"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr38" unique_id=1252765642]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec38" type="Label" parent="." unique_id=480554889]
+layout_mode = 0
+offset_left = 4622.0
+offset_top = 1986.0
+offset_right = 5199.0
+offset_bottom = 2216.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec38" unique_id=212651035]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr39" type="Label" parent="." unique_id=2092189579]
+layout_mode = 0
+offset_left = 4216.0
+offset_top = 2268.0
+offset_right = 4793.0
+offset_bottom = 2498.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "ver edificio mr X"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr39" unique_id=2001294311]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec39" type="Label" parent="." unique_id=397232208]
+layout_mode = 0
+offset_left = 4625.0
+offset_top = 2266.0
+offset_right = 5202.0
+offset_bottom = 2496.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec39" unique_id=842472879]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr40" type="Label" parent="." unique_id=1444871012]
+layout_mode = 0
+offset_left = 4213.0
+offset_top = 2547.0
+offset_right = 4790.0
+offset_bottom = 2777.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "drones"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr40" unique_id=283200288]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec40" type="Label" parent="." unique_id=1207434562]
+layout_mode = 0
+offset_left = 4622.0
+offset_top = 2545.0
+offset_right = 5199.0
+offset_bottom = 2775.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec40" unique_id=1713885975]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr41" type="Label" parent="." unique_id=197818817]
+layout_mode = 0
+offset_left = 5219.0
+offset_top = 46.0
+offset_right = 5796.0
+offset_bottom = 276.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "diferentes mails"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr41" unique_id=1619482721]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec41" type="Label" parent="." unique_id=903602044]
+layout_mode = 0
+offset_left = 5628.0
+offset_top = 44.0
+offset_right = 6205.0
+offset_bottom = 274.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec41" unique_id=770229693]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr42" type="Label" parent="." unique_id=2027243399]
+layout_mode = 0
+offset_left = 5217.0
+offset_top = 323.0
+offset_right = 5794.0
+offset_bottom = 553.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "SIM swapping"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr42" unique_id=978728152]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec42" type="Label" parent="." unique_id=100578826]
+layout_mode = 0
+offset_left = 5626.0
+offset_top = 321.0
+offset_right = 6203.0
+offset_bottom = 551.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec42" unique_id=1698712502]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr43" type="Label" parent="." unique_id=1849056800]
+layout_mode = 0
+offset_left = 5217.0
+offset_top = 606.0
+offset_right = 5794.0
+offset_bottom = 836.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "intranet hospital"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr43" unique_id=173071058]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec43" type="Label" parent="." unique_id=1435357852]
+layout_mode = 0
+offset_left = 5626.0
+offset_top = 604.0
+offset_right = 6203.0
+offset_bottom = 834.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "¿Cómo se pueden proteger redes de sistemas completos para que un atacante no pueda acceder a ellos desde cualquier nodo de Internet?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Tec43" unique_id=138301786]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "conectándolos en una intranet
+usando un servicio VPN
+bloqueando puertos con Firewall
+que funcionen en máquinas virtuales"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr44" type="Label" parent="." unique_id=1442784557]
+layout_mode = 0
+offset_left = 5221.0
+offset_top = 898.0
+offset_right = 5798.0
+offset_bottom = 1128.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "MITM https"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr44" unique_id=1491780582]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec44" type="Label" parent="." unique_id=12011469]
+layout_mode = 0
+offset_left = 5630.0
+offset_top = 896.0
+offset_right = 6207.0
+offset_bottom = 1126.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec44" unique_id=1577661171]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr45" type="Label" parent="." unique_id=194036173]
+layout_mode = 0
+offset_left = 5219.0
+offset_top = 1169.0
+offset_right = 5796.0
+offset_bottom = 1399.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "Cuando te conectas a un Wifi gratuito y público, que ha sido configurado por un hacker ¿Cuál de los siguientes No es un riesgo directo?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Answers" type="Label" parent="Usr45" unique_id=99329888]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "ingreso a archivos del dispositivo
+el DNS redirige a sitios falsos
+interceptación de paquetes
+robo de sesiónes mediante cookies"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec45" type="Label" parent="." unique_id=684540476]
+layout_mode = 0
+offset_left = 5628.0
+offset_top = 1167.0
+offset_right = 6205.0
+offset_bottom = 1397.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec45" unique_id=1777407030]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr46" type="Label" parent="." unique_id=1489165273]
+layout_mode = 0
+offset_left = 5219.0
+offset_top = 1440.0
+offset_right = 5796.0
+offset_bottom = 1670.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "doxeo fotos red social"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr46" unique_id=432012721]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec46" type="Label" parent="." unique_id=26481800]
+layout_mode = 0
+offset_left = 5628.0
+offset_top = 1438.0
+offset_right = 6205.0
+offset_bottom = 1668.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec46" unique_id=1975438840]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr47" type="Label" parent="." unique_id=936758831]
+layout_mode = 0
+offset_left = 5210.0
+offset_top = 1722.0
+offset_right = 5787.0
+offset_bottom = 1952.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "smishing como phishing con sms, hacer pasar por banco etc"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr47" unique_id=2103755718]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec47" type="Label" parent="." unique_id=1119566631]
+layout_mode = 0
+offset_left = 5619.0
+offset_top = 1720.0
+offset_right = 6196.0
+offset_bottom = 1950.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec47" unique_id=1306944425]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr48" type="Label" parent="." unique_id=429435992]
+layout_mode = 0
+offset_left = 5204.0
+offset_top = 1993.0
+offset_right = 5781.0
+offset_bottom = 2223.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+text = "perfil falso red citas obtiene info"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr48" unique_id=533409523]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec48" type="Label" parent="." unique_id=684304922]
+layout_mode = 0
+offset_left = 5613.0
+offset_top = 1991.0
+offset_right = 6190.0
+offset_bottom = 2221.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec48" unique_id=915065979]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr49" type="Label" parent="." unique_id=1897860343]
+layout_mode = 0
+offset_left = 5207.0
+offset_top = 2273.0
+offset_right = 5784.0
+offset_bottom = 2503.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr49" unique_id=190084155]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec49" type="Label" parent="." unique_id=692450001]
+layout_mode = 0
+offset_left = 5616.0
+offset_top = 2271.0
+offset_right = 6193.0
+offset_bottom = 2501.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec49" unique_id=1652039104]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Usr50" type="Label" parent="." unique_id=645635068]
+layout_mode = 0
+offset_left = 5204.0
+offset_top = 2552.0
+offset_right = 5781.0
+offset_bottom = 2782.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Usr50" unique_id=1216446626]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Tec50" type="Label" parent="." unique_id=715683148]
+layout_mode = 0
+offset_left = 5613.0
+offset_top = 2550.0
+offset_right = 6190.0
+offset_bottom = 2780.0
+scale = Vector2(0.666, 0.666)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Answers" type="Label" parent="Tec50" unique_id=1242180406]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 237.0
+offset_right = 492.0
+offset_bottom = 377.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_wpqfo")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2bpl")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+metadata/_edit_lock_ = true
